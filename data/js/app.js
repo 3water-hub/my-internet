@@ -415,7 +415,7 @@ FA.app = (function () {
     }, 1500);
   }
 
-  return { init: init, reloadCurrent: reloadCurrent, selftest: selftest };
+  return { init: init, reloadCurrent: reloadCurrent, selftest: selftest,selectCompany };
 })();
 
 document.addEventListener('DOMContentLoaded', FA.app.init);
